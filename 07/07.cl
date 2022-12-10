@@ -1,6 +1,6 @@
 #!/opt/homebrew/bin/sbcl --script
-; Jonathan Balls AOC Day 3
-; https://adventofcode.com/2022/day/3
+; Jonathan Balls AOC Day 7
+; https://adventofcode.com/2022/day/7
 (load "~/.quicklisp/setup.lisp")
 (ql:quickload :str)
 ; (ql:quickload :cl-utilities)

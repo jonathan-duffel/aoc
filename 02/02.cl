@@ -1,6 +1,6 @@
 #!/opt/homebrew/bin/sbcl --script
 ; Jonathan Balls AOC Day 2
-; https://adventofcode.com/2022/day/1
+; https://adventofcode.com/2022/day/2
 (load "~/.quicklisp/setup.lisp")
 (ql:quickload :str)
 (ql:quickload :cl-utilities)
@@ -12,7 +12,6 @@
       contents)))
 
 (defparameter lines (str:lines (file-get-contents "input.txt")))
-
 
 (defun participation-score (pair)
     (cond
